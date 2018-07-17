@@ -12,7 +12,8 @@ in `tslint.json`,
     "rulesDirectory": ["./node_modules/tslint-rules-jeongho/dist"],
     "rules": {
         "symmetric-enum": [true, {
-            "path": ".*.ts$" // Optional regex to restrict files to apply this rule.
+            // Optional regex to restrict files to apply this rule.
+            "path": ".*.ts$"
         }]
     }
 }
