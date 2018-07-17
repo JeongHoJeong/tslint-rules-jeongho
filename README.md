@@ -7,7 +7,7 @@ yarn add tslint-rules-jeongho
 ```
 
 in `tslint.json`,
-```json
+```json5
 {
     "rulesDirectory": ["./node_modules/tslint-rules-jeongho/dist"],
     "rules": {
